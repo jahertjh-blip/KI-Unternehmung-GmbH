@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ki-unternehmung-gmbh2",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-04-02",
+  "assets": {
+    "directory": ".open-next/assets"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "ki-unternehmung-gmbh2"
+    }
+  ]
+}
